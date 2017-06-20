@@ -1,0 +1,27 @@
+{
+    "name": "yourvendorname/modulename",
+    "description": "A short description of what your package does",
+    "type": "library",
+    "keywords": ["anax", "module-stub"],
+    "homepage": "http://somesite.example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "youremail@somewhere.example",
+            "homepage": "http://yourhomepage.example",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yourgithub/project/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "yourvendorname\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
