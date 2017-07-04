@@ -6,7 +6,7 @@ namespace yourvendorname\Hello;
  * Tests
  *
  */
-class UriTest extends \PHPUnit_Framework_TestCase
+class HelloTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Basic test to create class.
